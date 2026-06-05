@@ -19,29 +19,29 @@ var modo = JOGAR;
 function preload() {
   //carregar animações e imagens
   rex_run = loadAnimation(
-    "asssets/img/trex1.png",
-    "asssets/img/trex3.png",
-    "asssets/img/trex4.png",
+    "assets/img/trex1.png",
+    "assets/img/trex3.png",
+    "assets/img/trex4.png",
   );
-  imagemSolo = loadImage("asssets/img/ground2.png");
+  imagemSolo = loadImage("assets/img/ground2.png");
 
-  restartimg = loadImage("asssets/img/restart.png");
-  imgfim = loadImage("asssets/img/gameOver.png");
+  restartimg = loadImage("assets/img/restart.png");
+  imgfim = loadImage("assets/img/gameOver.png");
 
-  imagem_nuvem = loadImage("asssets/img/cloud.png");
-  rex_collide = loadImage("asssets/img/trex_collided.png");
+  imagem_nuvem = loadImage("assets/img/cloud.png");
+  rex_collide = loadImage("assets/img/trex_collided.png");
   console.log("Placar: " + 0);
 
-  obstaculo1 = loadImage("asssets/img/obstacle1.png");
-  obstaculo2 = loadImage("asssets/img/obstacle2.png");
-  obstaculo3 = loadImage("asssets/img/obstacle3.png");
-  obstaculo4 = loadImage("asssets/img/obstacle4.png");
-  obstaculo5 = loadImage("asssets/img/obstacle5.png");
-  obstaculo6 = loadImage("asssets/img/obstacle6.png");
+  obstaculo1 = loadImage("assets/img/obstacle1.png");
+  obstaculo2 = loadImage("assets/img/obstacle2.png");
+  obstaculo3 = loadImage("assets/img/obstacle3.png");
+  obstaculo4 = loadImage("assets/img/obstacle4.png");
+  obstaculo5 = loadImage("assets/img/obstacle5.png");
+  obstaculo6 = loadImage("assets/img/obstacle6.png");
 
-  pulosom = loadSound("asssets/mp3/jump.mp3");
-  checksom = loadSound("asssets/mp3/checkPoint.mp3");
-  mortasom = loadSound("asssets/mp3/die.mp3");
+  pulosom = loadSound("assets/mp3/jump.mp3");
+  checksom = loadSound("assets/mp3/checkPoint.mp3");
+  mortasom = loadSound("assets/mp3/die.mp3");
 }
 
 function setup() {
