@@ -102,6 +102,7 @@ T-REX-MOBILE/
 ├── index.html
 └── README.md
 ```
+---
 
 ## Licença
 Este projeto foi desenvolvido exclusivamente para fins educacionais e de aprendizado.
